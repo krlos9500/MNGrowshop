@@ -26,7 +26,6 @@ textarea {
   font: 1.6rem helvetica;
   padding: 1rem;
   border: 0.1rem #808080 solid;
-  border-radius: 0.5rem;
 }
 input:hover,
 button:hover {
@@ -81,10 +80,11 @@ button.primary {
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
+  background-color: #083643;
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #476c5e;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -120,12 +120,13 @@ footer {
   margin: 0;
   justify-content: center;
   background-color:  #083643;
+  
 }
 .products li {
   flex: 0 1 30rem;
-  margin: 1rem;
   margin-bottom: 0;
   height: 42rem;
+  padding: .5rem;
 }
 .product {
   display: flex;
@@ -133,7 +134,12 @@ footer {
   justify-content: space-around;
   height: 100%;
   background-color: #b8ecd7;
-  border-radius: 2rem;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: grey;
+  font-size: 22px;
 }
 .product img {
   max-height: 26rem;
@@ -146,6 +152,17 @@ img:hover {
 }
 .product-name {
   line-height: 2.2rem;
+}
+.product button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 .product-brand {
   font-size: 1.2rem;

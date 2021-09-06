@@ -36,7 +36,9 @@ const HomeScreen = {
         </div>
         <div class="product-price">
           $${product.price}
+          <p><button>Add to Cart</button></p>
         </div>
+
         </div>
       </li>
       `

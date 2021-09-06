@@ -59,6 +59,7 @@ const ProductScreen = {
           <ul>
             <li>
               <h1>${product.name}</h1>
+              <p><button>Add to Cart</button></p>
             </li>
             <li>
             ${Rating.render({
